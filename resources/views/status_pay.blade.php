@@ -46,14 +46,16 @@
         <div class="container">
             <div class="confirm-card">
                 <div class="top-content">
-                    <div class="column title-column">
+                    <div class="line">
                         <span>Produit</span>
-                        <span>Montant</span>
-                        <span>Status</span>
-                    </div>
-                    <div class="column featured-column">
                         <span>{{ $order->product->title }}</span>
+                    </div>
+                    <div class="line">
+                        <span>Montant</span>
                         <span>{{ number_format($order->product->price, 2) }}€</span>
+                    </div>
+                    <div class="line">
+                        <span>Status</span>
                         @if ($order->status == 'paid')
                             <div class="badge-success">Effectué</div>
                         @else

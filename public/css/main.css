@@ -359,7 +359,8 @@ footer {
     font-size: 14px;
 }
 
-.confirm-card .bottom-content {
+.confirm-card .bottom-content,
+.confirm-card .top-content {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -426,7 +427,7 @@ footer {
     }
 
     h2 {
-        font-size: 27px;
+        font-size: 26px;
     }
 
     h3 {
@@ -493,5 +494,9 @@ footer {
     .plans .plan-item {
         max-width: 15rem;
         padding: 35px 30px 25px;
+    }
+
+    .font-28 {
+        font-size: 24px;
     }
 }

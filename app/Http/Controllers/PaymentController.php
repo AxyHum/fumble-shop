@@ -29,22 +29,13 @@ class PaymentController extends Controller
 
             $session = Session::retrieve($request->session_id);
 
-            $stripe = new \Stripe\StripeClient(env('STRIPE_SECRET'));
-
-            $stripe->invoices->retrieve($session['invoice']);
-
-            $session['customer_details']['name'];
-
             if (!empty($session) and $session->payment_status == 'paid') {
                 $order->update([
                     'status' => 'paid',
                     'email' => $session['customer_details']['email'],
                     'name' => $session['customer_details']['name'],
-                    'invoice_pdf' => $stripe->invoices->retrieve($session['invoice'])['invoice_pdf']
+                    'invoice_pdf' => url('/order/invoice?order_id=' . $order->id)
                 ]);
-
-                $pdf = Pdf::loadView('/payments/status?order_id=' . $order->id, ['truc' => 72]);
-                return $pdf->download('invoice.pdf');
 
                 return redirect('/payments/status?order_id=' . $order->id);
             }
