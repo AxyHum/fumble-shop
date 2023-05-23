@@ -212,8 +212,16 @@ section {
     background: #22CD10;
 }
 
+.plans .bg-primary .plan-sub {
+    background: #115207;
+}
+
 .plans .bg-secondary {
     background: #44D0FC;
+}
+
+.plans .bg-secondary .plan-sub {
+    background: #1d5365;
 }
 
 .plans .bg-dark {
@@ -221,8 +229,8 @@ section {
     color: white
 }
 
-.plans .plan-sub {
-    color: rgba(0, 0, 0, 0.6);
+.plans .bg-dark .plan-sub {
+    background: #a4a4a6;
 }
 
 .plans .bg-dark .plan-sub {
@@ -418,7 +426,7 @@ footer {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 27px;
     }
 
     h3 {
@@ -426,7 +434,7 @@ footer {
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h5 {
@@ -483,7 +491,7 @@ footer {
     }
 
     .plans .plan-item {
-        max-width: 14rem;
-        font-size: ;
+        max-width: 15rem;
+        padding: 35px 30px 25px;
     }
 }
