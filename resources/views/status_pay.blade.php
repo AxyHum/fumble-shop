@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,9 +47,9 @@
             <div class="confirm-card">
                 <div class="top-content">
                     <div class="column title-column">
-                        <span>Nom du produit</span>
+                        <span>Produit</span>
                         <span>Montant</span>
-                        <span>Status du paiement</span>
+                        <span>Status</span>
                     </div>
                     <div class="column featured-column">
                         <span>{{ $order->product->title }}</span>
@@ -64,11 +68,11 @@
                         <span># 00{{ $order->id }}</span>
                     </div>
                     <div class="line">
-                        <span>Date de paiement</span>
+                        <span>Date et heure</span>
                         <span>{{ $order->updated_at }}</span>
                     </div>
                     <div class="line">
-                        <span>Méthode de paiement</span>
+                        <span>Paiement par</span>
                         <span>Carte bancaire</span>
                     </div>
                     <div class="line">

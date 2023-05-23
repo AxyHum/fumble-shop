@@ -44,7 +44,7 @@ a {
     border-radius: 8px;
     color: white;
     transition: ease 200ms;
-    font-family: 'Enter Sansman';
+    font-family: 'Enter Sansman Bold';
     font-size: 16px;
     border: 2px solid transparent;
 }
@@ -62,7 +62,7 @@ a {
     border: 2px solid #1B1C20;
     border-radius: 8px;
     transition: ease 200ms;
-    font-family: 'Enter Sansman';
+    font-family: 'Enter Sansman Bold';
     font-size: 16px;
 }
 
@@ -438,7 +438,7 @@ footer {
     }
 
     .payment-title {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .subtitle {
