@@ -213,7 +213,7 @@ section {
 }
 
 .plans .bg-primary .plan-sub {
-    background: #115207;
+    color: #115207;
 }
 
 .plans .bg-secondary {
@@ -221,7 +221,7 @@ section {
 }
 
 .plans .bg-secondary .plan-sub {
-    background: #1d5365;
+    color: #1d5365;
 }
 
 .plans .bg-dark {
@@ -230,7 +230,7 @@ section {
 }
 
 .plans .bg-dark .plan-sub {
-    background: #a4a4a6;
+    color: #a4a4a6;
 }
 
 .plans .bg-dark .plan-sub {
