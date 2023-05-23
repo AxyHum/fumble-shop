@@ -417,6 +417,23 @@ footer {
         font-size: 34px;
     }
 
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+
     .center {
         text-align: center;
     }
@@ -463,5 +480,10 @@ footer {
 
     .confirm-card {
         font-size: 15px;
+    }
+
+    .plans .plan-item {
+        max-width: 14rem;
+        font-size: ;
     }
 }
