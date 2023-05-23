@@ -8,8 +8,12 @@
 
 /* Appliquez la police à des éléments spécifiques ou à tout le site */
 html {
-    font-family: 'Enter Sansman Bold', sans-serif;
     font-size: 16px;
+    font: -apple-system-body;
+}
+
+body {
+    font-family: 'Enter Sansman Bold', sans-serif;
 }
 
 nav {
