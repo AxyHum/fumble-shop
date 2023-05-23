@@ -25,7 +25,7 @@
                 <path d="M11 20.0435L17 27.087L29 13" stroke="white" stroke-width="2.5" stroke-linecap="round"
                     stroke-linejoin="round" />
             </svg>
-            <h1>Paiement Effectué</h1>
+            <h1 class="payment-title">Paiement Effectué</h1>
             <h4 class="subtitle">Votre paiement à correctement été effectué</h4>
         @else
             <svg width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,19 +58,28 @@
                     </div>
                 </div>
                 <div class="bottom-content">
-                    <div class="column title-column">
-                        <span>Numéro de référence</span>
+                    {{-- <div class="column title-column"> --}}
+                    <div class="line">
+                        <span>Numéro Ref</span>
+                        <span># 00{{ $order->id }}</span>
+                    </div>
+                    <div class="line">
                         <span>Date de paiement</span>
+                        <span>{{ $order->updated_at }}</span>
+                    </div>
+                    <div class="line">
                         <span>Méthode de paiement</span>
+                        <span>Carte bancaire</span>
+                    </div>
+                    <div class="line">
                         <span>Nom Prénom</span>
+                        <span>{{ $order->name }}</span>
+                    </div>
+                    <div class="line">
                         <span>Email</span>
+                        <span>{{ $order->email }}</span>
                     </div>
                     <div class="column featured-column">
-                        <span># 00{{ $order->id }}</span>
-                        <span>{{ $order->updated_at }}</span>
-                        <span>Carte bancaire</span>
-                        <span>{{ $order->name }}</span>
-                        <span>{{ $order->email }}</span>
                     </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@
     </header>
     <section class="section">
         <div class="container">
-            <h2>Choisissez votre carte</h2>
+            <h2 class="center">Choisissez votre carte</h2>
             <div class="plans">
                 <a href="/product/1/checkout">
                     <div class="plan-item bg-primary">
@@ -100,7 +100,7 @@
                 </svg>
                 <a href="#">Customer Story</a href="#">
             </div>
-            <span>2022-2023 Fumble Ultimate - Powered by
+            <span class="copyright">2022-2023 Fumble Ultimate - Powered by
                 <a style="font-weight:600" target="_blank" href="https://axystudio.org">AxyHum</a></span>
         </div>
     </footer>
