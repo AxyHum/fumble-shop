@@ -88,7 +88,8 @@
                 </div>
             </div>
             <div class="button-container">
-                <a class="w-100" href="#"><button class="primary-outline w-100">Télécharger la
+                <a class="w-100" target="_blank" href="{{ $order->invoice_pdf }}"><button
+                        class="primary-outline w-100">Télécharger la
                         facture</button></a>
                 <a class="w-100" href="/"><button class="primary-button w-100">Retour à
                         l'accueil</button></a>

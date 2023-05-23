@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('product_id')->constrained();
             $table->string('email')->nullable();
             $table->string('name')->nullable();
+            $table->string('invoice_pdf')->nullable();
             $table->enum('status', ['pending', 'paying', 'paid', 'fail']);
             $table->enum('payment_method', ['credit', 'payment_channel'])->nullable();
             $table->decimal('amount', 13, 2)->unsigned();

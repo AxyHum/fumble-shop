@@ -7,6 +7,8 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 use Stripe\Checkout\Session;
 use Stripe\Stripe;
+use Stripe\StripeClient;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class PaymentController extends Controller
 {
@@ -27,14 +29,22 @@ class PaymentController extends Controller
 
             $session = Session::retrieve($request->session_id);
 
+            $stripe = new \Stripe\StripeClient(env('STRIPE_SECRET'));
+
+            $stripe->invoices->retrieve($session['invoice']);
+
             $session['customer_details']['name'];
 
             if (!empty($session) and $session->payment_status == 'paid') {
                 $order->update([
                     'status' => 'paid',
                     'email' => $session['customer_details']['email'],
-                    'name' => $session['customer_details']['name']
+                    'name' => $session['customer_details']['name'],
+                    'invoice_pdf' => $stripe->invoices->retrieve($session['invoice'])['invoice_pdf']
                 ]);
+
+                $pdf = Pdf::loadView('/payments/status?order_id=' . $order->id, ['truc' => 72]);
+                return $pdf->download('invoice.pdf');
 
                 return redirect('/payments/status?order_id=' . $order->id);
             }

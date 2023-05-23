@@ -7,7 +7,7 @@
 }
 
 /* Appliquez la police à des éléments spécifiques ou à tout le site */
-body {
+html {
     font-family: 'Enter Sansman Bold', sans-serif;
     font-size: 16px;
 }

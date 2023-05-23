@@ -31,6 +31,9 @@ class ProductController extends Controller
                     ],
                 ],
             ],
+            'invoice_creation' => [
+                'enabled' => true,
+            ],
             'mode' => 'payment',
         ]);
 
