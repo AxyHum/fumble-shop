@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
 </head>
 
 <body>
@@ -47,7 +48,7 @@
             <div class="confirm-card">
                 <div class="top-content">
                     <div class="line">
-                        <span>Produit</span>
+                        <span>Profuit</span>
                         <span>{{ $order->product->title }}</span>
                     </div>
                     <div class="line">

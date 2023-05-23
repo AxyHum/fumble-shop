@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\OrderShipped;
 use App\Models\Order;
 use App\Models\Product;
 use Illuminate\Http\Request;
@@ -9,6 +10,7 @@ use Stripe\Checkout\Session;
 use Stripe\Stripe;
 use Stripe\StripeClient;
 use Barryvdh\DomPDF\Facade\Pdf;
+use Illuminate\Support\Facades\Mail;
 
 class PaymentController extends Controller
 {
@@ -58,6 +60,8 @@ class PaymentController extends Controller
                 'pageTitle' => trans('public.cart_page_title'),
                 'order' => $order,
             ];
+
+            Mail::to($order->email)->send(new OrderShipped($order));
 
             return view('status_pay', $data);
         }
