@@ -1,13 +1,21 @@
 @font-face {
-    font-family: 'Enter Sansman';
-    src: url('/fonts/enter-sansman.bold.ttf') format('ttf');
-    font-weight: normal;
+    font-family: 'Enter Sansman Bold Italic';
     font-style: normal;
+    font-weight: normal;
+    src: local('Enter Sansman Bold Italic'), url('/fonts/entsani.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Enter Sansman Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Enter Sansman Bold'), url('/fonts/entsans.woff') format('woff');
 }
 
 /* Appliquez la police à des éléments spécifiques ou à tout le site */
 body {
-    font-family: 'Enter Sansman', sans-serif;
+    font-family: 'Enter Sansman Bold', sans-serif;
     font-size: 16px;
 }
 
