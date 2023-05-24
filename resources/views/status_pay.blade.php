@@ -71,7 +71,7 @@
                         <span># 00{{ $order->id }}</span>
                     </div>
                     <div class="line">
-                        <span>Date et heure</span>
+                        <span>Date</span>
                         <span>{{ $order->updated_at }}</span>
                     </div>
                     <div class="line">
@@ -79,12 +79,12 @@
                         <span>Carte bancaire</span>
                     </div>
                     <div class="line">
-                        <span>Nom Prénom</span>
+                        <span>Nom</span>
                         <span>{{ $order->name }}</span>
                     </div>
                     <div class="line">
                         <span>Email</span>
-                        <span>{{ $order->email }}</span>
+                        <span class="email">{{ $order->email }}</span>
                     </div>
                     <div class="column featured-column">
                     </div>

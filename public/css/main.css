@@ -394,6 +394,7 @@ footer {
     color: rgba(0, 0, 0, 0.9);
     align-items: flex-end;
     font-weight: 600;
+    align-items: center;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -498,5 +499,9 @@ footer {
 
     .font-28 {
         font-size: 24px;
+    }
+
+    .email {
+        font-size: 13px;
     }
 }
