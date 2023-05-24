@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendOrderShippedMail;
 use App\Mail\OrderShipped;
 use App\Models\Order;
 use App\Models\Product;
@@ -61,7 +62,7 @@ class PaymentController extends Controller
                 'order' => $order,
             ];
 
-            Mail::to($order->email)->send(new OrderShipped($order));
+            SendOrderShippedMailJob::dispatch($order);
 
             return view('status_pay', $data);
         }
