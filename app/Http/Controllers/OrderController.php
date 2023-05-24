@@ -13,7 +13,7 @@ class OrderController extends Controller
         $order = Order::find($request->get('order_id'));
 
         if ($order) {
-            $pdf = Pdf::loadView('emails.orders.shipped', ['order' => $order])->setOptions(['defaultFont' => 'MontSerrat']);
+            $pdf = Pdf::loadView('emails.orders.shipped', ['order' => $order])->setOptions(['defaultFont' => 'MontSerrat', 'isRemoteEnabled' => true]);
             return $pdf->download('invoice.pdf');
         };
     }
