@@ -20,7 +20,7 @@ class OrderShipped extends Mailable
     public function __construct(
         public Order $order,
     ) {
-        //
+        $this->order = $order;
     }
 
     /**
@@ -29,7 +29,7 @@ class OrderShipped extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Fumble - Commande Effectué',
+            subject: 'Fumble - Commande Effectué #00' . $this->order->id,
         );
     }
 
