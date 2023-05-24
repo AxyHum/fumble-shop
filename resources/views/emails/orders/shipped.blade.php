@@ -854,10 +854,11 @@
                                         <tbody style="">
                                             <tr style="">
                                                 <td class="column column-1" width="100%" style="">
-                                                    <div style="text-align: center;">
+                                                    <div
+                                                        style="text-align: center;font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
                                                         <span style="">2022-2023 Fumble Ultimate
                                                             - Powered by
-                                                            <a style="font-weight: 600;text-decoration: none;color: black;"
+                                                            <a style="text-decoration: underline;color: black;font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;"
                                                                 href="https://axystudio.org">AxyStudio</a></span>
                                                     </div>
                                                 </td>
