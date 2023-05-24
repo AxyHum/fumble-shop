@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Jobs\SendOrderShippedMail;
-use App\Mail\OrderShipped;
+use Stripe\Stripe;
 use App\Models\Order;
 use App\Models\Product;
+use Stripe\StripeClient;
+use App\Mail\OrderShipped;
 use Illuminate\Http\Request;
 use Stripe\Checkout\Session;
-use Stripe\Stripe;
-use Stripe\StripeClient;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Mail;
+use App\Jobs\SendOrderShippedMailJob;
 
 class PaymentController extends Controller
 {
