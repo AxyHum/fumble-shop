@@ -159,7 +159,7 @@
                                                                 style="width:100%;padding-right:0px;padding-left:0px;">
                                                                 <div align="center" class="alignment"
                                                                     style="line-height:10px"><img
-                                                                        src="https://fumble-shop.axystudio.fr/images/Success_Logo.svg"
+                                                                        src="https://fumble-shop.axystudio.fr/images/Success_Logo.png"
                                                                         style="display: block; height: auto; border: 0; width: 40px; max-width: 100%;"
                                                                         width="40" /></div>
                                                             </td>
