@@ -304,7 +304,7 @@
                                                 </td>
                                                 <td class="column column-2"
                                                     style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: middle; border-top: 0px; border-bottom: 0px; border-left: 0px;"
-                                                    width="33.333333333333336%">
+                                                    width="70%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
                                                         style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; "
