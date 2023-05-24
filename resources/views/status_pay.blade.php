@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="https://fumble.local">
+            <a href="{{ url('/') }}">
                 <img src="/images/fumble-logo-full-black.jpg" alt="">
             </a>
             <a href="https://www.fumble-ultimate.fr/"><button class="primary-button">Accéder au site</button></a>

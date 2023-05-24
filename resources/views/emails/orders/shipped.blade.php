@@ -1,132 +1,52 @@
 <!DOCTYPE html>
 
-<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml"
+    style="box-sizing: border-box;">
 
-<head>
-    <title></title>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
-    <!--[if !mso]><!-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap" rel="stylesheet"
-        type="text/css" />
-    <!--<![endif]-->
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+<head style="box-sizing: border-box;">
+    <title style="box-sizing: border-box;"></title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" style="box-sizing: border-box;">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" style="box-sizing: border-box;">
 
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        a[x-apple-data-detectors] {
-            color: inherit !important;
-            text-decoration: inherit !important;
-        }
-
-        #MessageViewBody a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        p {
-            line-height: inherit
-        }
-
-        .desktop_hide,
-        .desktop_hide table {
-            mso-hide: all;
-            display: none;
-            max-height: 0px;
-            overflow: hidden;
-        }
-
-        .image_block img+div {
-            display: none;
-        }
-
-        @media (max-width:590px) {
-
-            .desktop_hide table.icons-inner,
-            .social_block.desktop_hide .social-table {
-                display: inline-block !important;
-            }
-
-            .icons-inner {
-                text-align: center;
-            }
-
-            .icons-inner td {
-                margin: 0 auto;
-            }
-
-            .row-content {
-                width: 100% !important;
-            }
-
-            .mobile_hide {
-                display: none;
-            }
-
-            .stack .column {
-                width: 100%;
-                display: block;
-            }
-
-            .mobile_hide {
-                min-height: 0;
-                max-height: 0;
-                max-width: 0;
-                overflow: hidden;
-                font-size: 0px;
-            }
-
-            .desktop_hide,
-            .desktop_hide table {
-                display: table !important;
-                max-height: none !important;
-            }
-        }
-    </style>
 </head>
 
-<body style="background-color: #e5e5e5; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
+<div
+    style="background-color: white;margin: 0;padding: 0;-webkit-text-size-adjust: none;text-size-adjust: none;box-sizing: border-box;">
     <table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation"
-        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #e5e5e5; background-size: auto; background-image: none; background-position: top left; background-repeat: no-repeat;"
+        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: white;background-size: auto;background-position: top left;background-repeat: no-repeat;box-sizing: border-box;"
         width="100%">
-        <tbody>
-            <tr>
-                <td>
+        <tbody style="box-sizing: border-box;">
+            <tr style="box-sizing: border-box;">
+                <td style="box-sizing: border-box;">
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: white"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background: white;box-sizing: border-box;"
                         width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content stack" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;padding-bottom: 5px;padding-top: 5px;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="100%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="image_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:24px;padding-top:24px;width:100%;padding-right:0px;padding-left:0px;">
+                                                                style="padding-bottom: 24px;padding-top: 24px;width: 100%;padding-right: 0px;padding-left: 0px;box-sizing: border-box;">
                                                                 <div align="center" class="alignment"
-                                                                    style="line-height:10px"><img alt="Fumble Logo"
-                                                                        src="{{ url('/images/fumble-logo-full-black.jpg') }}"
-                                                                        style="display: block; height: auto; border: 0; width: 285px; max-width: 100%;"
-                                                                        title="Fumble Logo" width="285" />
+                                                                    style="line-height: 10px;box-sizing: border-box;">
+                                                                    <img alt="Fumble Logo"
+                                                                        src="https://fumble-shop.axystudio.fr/images/fumble-logo-full-black.jpg"
+                                                                        style="height: auto;border: 0;width: 285px;max-width: 100%;box-sizing: border-box;"
+                                                                        title="Fumble Logo" width="285">
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -140,51 +60,57 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-size: auto;"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-size: auto;box-sizing: border-box;"
                         width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-size: auto; background-color: #ffffff; border-radius: 0; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-size: auto;background-color: #ffffff;border-radius: 0;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; padding: 0 15px; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;padding: 0 15px;mso-table-rspace: 0pt;font-weight: 400;text-align: left;vertical-align: middle;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="100%">
                                                     <div class="spacer_block block-1"
-                                                        style="height:20px;line-height:20px;font-size:1px;"> </div>
+                                                        style="height: 20px;line-height: 20px;font-size: 1px;box-sizing: border-box;">
+                                                    </div>
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="image_block block-2" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="width:100%;padding-right:0px;padding-left:0px;">
+                                                                style="width: 100%;padding-right: 0px;padding-left: 0px;box-sizing: border-box;">
                                                                 <div align="center" class="alignment"
-                                                                    style="line-height:10px"><img
-                                                                        src="{{ url('/images/Success_Logo.svg') }}"
-                                                                        style="display: block; height: auto; border: 0; width: 40px; max-width: 100%;"
-                                                                        width="40" /></div>
+                                                                    style="line-height: 10px;box-sizing: border-box;">
+                                                                    <img src="https://fumble-shop.axystudio.fr/images/Success_Logo.png"
+                                                                        style="height: auto;border: 0;width: 40px;max-width: 100%;box-sizing: border-box;"
+                                                                        width="40">
+                                                                </div>
                                                             </td>
                                                         </tr>
                                                     </table>
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-3" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:15px;">
-                                                                <div style="font-family: Arial, sans-serif">
+                                                                style="padding-bottom: 10px;padding-left: 10px;padding-right: 10px;padding-top: 15px;box-sizing: border-box;">
+                                                                <div
+                                                                    style="font-family: Arial, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #ffffff; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #ffffff;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;">
-                                                                            <span style="color:#000000;"><strong><span
-                                                                                        style="font-size:28px;">Paiement
+                                                                            style="margin: 0;font-size: 14px;text-align: center;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <span
+                                                                                style="color: #000000;box-sizing: border-box;"><strong
+                                                                                    style="box-sizing: border-box;"><span
+                                                                                        style="font-size: 28px;box-sizing: border-box;">Paiement
                                                                                         Effectué</span></strong></span>
                                                                         </p>
                                                                     </div>
@@ -194,17 +120,18 @@
                                                     </table>
                                                     <table border="0" cellpadding="10" cellspacing="0"
                                                         class="text_block block-4" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
-                                                            <td class="pad">
-                                                                <div style="font-family: sans-serif">
+                                                        <tr style="box-sizing: border-box;">
+                                                            <td class="pad" style="box-sizing: border-box;">
+                                                                <div
+                                                                    style="font-family: sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #ffffff; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #ffffff;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;">
+                                                                            style="margin: 0;font-size: 14px;text-align: center;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
                                                                             <span
-                                                                                style="font-size:16px;color:#000000;">Votre
+                                                                                style="font-size: 16px;color: #000000;box-sizing: border-box;">Votre
                                                                                 paiement à correctement été
                                                                                 effectué</span>
                                                                         </p>
@@ -214,7 +141,8 @@
                                                         </tr>
                                                     </table>
                                                     <div class="spacer_block block-5"
-                                                        style="height:50px;line-height:50px;font-size:1px;"> </div>
+                                                        style="height: 50px;line-height: 50px;font-size: 1px;box-sizing: border-box;">
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -224,21 +152,23 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-3"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content stack" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; border-radius: 0; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #ffffff;border-radius: 0;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; border-left: 25px solid transparent; border-right: 24px solid transparent; vertical-align: top; border-top: 0px; border-bottom: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;border-left: 25px solid transparent;border-right: 24px solid transparent;vertical-align: top;border-top: 0px;border-bottom: 0px;box-sizing: border-box;"
                                                     width="100%">
                                                     <div class="spacer_block block-1"
-                                                        style="height:30px;line-height:30px;font-size:1px;"> </div>
+                                                        style="height: 30px;line-height: 30px;font-size: 1px;box-sizing: border-box;">
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -248,22 +178,24 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top:-16px"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin-top: -16px;box-sizing: border-box;"
                         width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content stack" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-top-right-radius: 16px; border-top-left-radius: 16px; background-color: #f2f2f2; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top-right-radius: 16px;border-top-left-radius: 16px;background-color: #f2f2f2;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="100%">
                                                     <div class="spacer_block block-1"
-                                                        style="height:20px;line-height:20px;font-size:1px;"> </div>
+                                                        style="height: 20px;line-height: 20px;font-size: 1px;box-sizing: border-box;">
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -273,34 +205,37 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-5"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #ffffff;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2; vertical-align: middle; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: middle;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="21%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:30px;padding-right:10px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-left: 30px;padding-right: 10px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #232323; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #232323;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">
+                                                                            style="margin: 0;font-size: 14px;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
                                                                             <span
-                                                                                style="font-size:16px;color:#6c6c6c;"><span>Produit</span>
+                                                                                style="font-size: 16px;color: #6c6c6c;box-sizing: border-box;"><span
+                                                                                    style="box-sizing: border-box;">Produit</span>
+                                                                            </span>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -309,24 +244,24 @@
                                                     </table>
                                                 </td>
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: middle; border-top: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: middle;border-top: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="33.333333333333336%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-right:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-right: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #555555;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
-                                                                            <strong><span
-                                                                                    style="font-size:16px;color:#000000;">Carte
-                                                                                    Buvette 5€</span></strong>
+                                                                            style="margin: 0;font-size: 14px;text-align: right;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <strong
+                                                                                style="box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;color: #000000;box-sizing: border-box;">{{ $order->product->title }}</span></strong>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -342,34 +277,36 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-6"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="21%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:30px;padding-right:10px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-left: 30px;padding-right: 10px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #232323; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #232323;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">
-                                                                            <span style="color:#6c6c6c;"><span
-                                                                                    style="font-size:16px;">Montant</span></span>
+                                                                            style="margin: 0;font-size: 14px;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <span
+                                                                                style="color: #6c6c6c;box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;box-sizing: border-box;">Montant</span></span>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -378,23 +315,24 @@
                                                     </table>
                                                 </td>
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: top; border-top: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="33.333333333333336%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-right:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-right: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #555555;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
-                                                                            <strong><span
-                                                                                    style="font-size:16px;color:#000000;">5.00€</span></strong>
+                                                                            style="margin: 0;font-size: 14px;text-align: right;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <strong
+                                                                                style="box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;color: #000000;box-sizing: border-box;">{{ number_format($order->product->price, 2) }}€</span></strong>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -410,34 +348,36 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-7"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="21%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:30px;padding-right:10px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-left: 30px;padding-right: 10px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #232323; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #232323;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">
-                                                                            <span style="color:#6c6c6c;"><span
-                                                                                    style="font-size:16px;">Statut</span></span>
+                                                                            style="margin: 0;font-size: 14px;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <span
+                                                                                style="color: #6c6c6c;box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;box-sizing: border-box;">Statut</span></span>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -446,23 +386,23 @@
                                                     </table>
                                                 </td>
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: top; border-top: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="33.333333333333336%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-right:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-right: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #555555;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
+                                                                            style="margin: 0;font-size: 14px;text-align: right;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
                                                                         <div
-                                                                            style="width:54%; margin-left: auto;text-align:center; color:#22CD10; padding: 4px 10px; background: rgba(34, 205, 16, 0.12); border-radius:8px; font-size:14px; font-weight:600">
+                                                                            style="width: 54%;margin-left: auto;text-align: center;color: #22CD10;padding: 4px 10px;background: rgba(34, 205, 16, 0.12);border-radius: 8px;font-size: 14px;font-weight: 600;box-sizing: border-box;">
                                                                             Effectué</div>
                                                                         </p>
                                                                     </div>
@@ -479,34 +419,37 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-8"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content stack" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f2f2f2; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #f2f2f2;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="100%">
                                                     <table border="0" cellpadding="10" cellspacing="0"
                                                         class="divider_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
-                                                            <td class="pad">
-                                                                <div align="center" class="alignment">
+                                                        <tr style="box-sizing: border-box;">
+                                                            <td class="pad" style="box-sizing: border-box;">
+                                                                <div align="center" class="alignment"
+                                                                    style="box-sizing: border-box;">
                                                                     <table border="0" cellpadding="0"
                                                                         cellspacing="0" role="presentation"
-                                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;"
+                                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                                         width="100%">
-                                                                        <tr>
+                                                                        <tr style="box-sizing: border-box;">
                                                                             <td class="divider_inner"
-                                                                                style="font-size: 1px; line-height: 1px; border-top: 1px solid #BBBBBB;">
-                                                                                <span> </span>
+                                                                                style="font-size: 1px;line-height: 1px;border-top: 1px solid #BBBBBB;box-sizing: border-box;">
+                                                                                <span
+                                                                                    style="box-sizing: border-box;"> </span>
                                                                             </td>
                                                                         </tr>
                                                                     </table>
@@ -523,34 +466,36 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-9"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="50%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:30px;padding-right:10px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-left: 30px;padding-right: 10px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #232323; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #232323;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">
-                                                                            <span style="color:#6c6c6c;"><span
-                                                                                    style="font-size:16px;">Numéro
+                                                                            style="margin: 0;font-size: 14px;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <span
+                                                                                style="color: #6c6c6c;box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;box-sizing: border-box;">Numéro
                                                                                     Ref</span></span>
                                                                         </p>
                                                                     </div>
@@ -560,23 +505,25 @@
                                                     </table>
                                                 </td>
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: top; border-top: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="50%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-right:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-right: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #555555;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
-                                                                            <strong><span
-                                                                                    style="font-size:16px;color:#000000;">0008745162</span></strong>
+                                                                            style="margin: 0;font-size: 14px;text-align: right;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <strong
+                                                                                style="box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;color: #000000;box-sizing: border-box;">#
+                                                                                    00{{ $order->id }}</span></strong>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -592,34 +539,36 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-10"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #bd3c3c; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="30%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:30px;padding-right:10px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-left: 30px;padding-right: 10px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #232323; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #232323;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">
-                                                                            <span style="color:#6c6c6c;"><span
-                                                                                    style="font-size:16px;">Date</span></span>
+                                                                            style="margin: 0;font-size: 14px;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <span
+                                                                                style="color: #6c6c6c;box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;box-sizing: border-box;">Date</span></span>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -628,24 +577,24 @@
                                                     </table>
                                                 </td>
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: top; border-top: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="70%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-right:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-right: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #555555;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
-                                                                            <strong><span
-                                                                                    style="font-size:16px;color:#000000;">22
-                                                                                    Mai 2023, 13:22:15</span></strong>
+                                                                            style="margin: 0;font-size: 14px;text-align: right;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <strong
+                                                                                style="box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;color: #000000;box-sizing: border-box;">{{ $order->updated_at }}</span></strong>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -661,34 +610,36 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-11"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #bd3c3c; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="40%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:30px;padding-right:10px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-left: 30px;padding-right: 10px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #232323; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #232323;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">
-                                                                            <span style="color:#6c6c6c;"><span
-                                                                                    style="font-size:16px;">Méthode</span></span>
+                                                                            style="margin: 0;font-size: 14px;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <span
+                                                                                style="color: #6c6c6c;box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;box-sizing: border-box;">Méthode</span></span>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -697,23 +648,24 @@
                                                     </table>
                                                 </td>
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: top; border-top: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="60%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-right:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-right: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #555555;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
-                                                                            <strong><span
-                                                                                    style="font-size:16px;color:#000000;">Carte
+                                                                            style="margin: 0;font-size: 14px;text-align: right;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <strong
+                                                                                style="box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;color: #000000;box-sizing: border-box;">Carte
                                                                                     bancaire</span></strong>
                                                                         </p>
                                                                     </div>
@@ -730,34 +682,36 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-12"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #bd3c3c; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="30%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:30px;padding-right:10px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-left: 30px;padding-right: 10px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #232323; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #232323;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">
-                                                                            <span style="color:#6c6c6c;"><span
-                                                                                    style="font-size:16px;">Nom</span></span>
+                                                                            style="margin: 0;font-size: 14px;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <span
+                                                                                style="color: #6c6c6c;box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;box-sizing: border-box;">Nom</span></span>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -766,23 +720,24 @@
                                                     </table>
                                                 </td>
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: top; border-top: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="70%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-right:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-right: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #555555;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
-                                                                            <strong><span
-                                                                                    style="font-size:16px;color:#000000;">Alexis
+                                                                            style="margin: 0;font-size: 14px;text-align: right;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <strong
+                                                                                style="box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;color: #000000;box-sizing: border-box;">Alexis
                                                                                     Bataillon</span></strong>
                                                                         </p>
                                                                     </div>
@@ -799,34 +754,36 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-13"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #bd3c3c; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="25%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-left:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-left: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #232323; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #232323;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 14px; mso-line-height-alt: 16.8px;">
-                                                                            <span style="color:#6c6c6c;"><span
-                                                                                    style="font-size:16px;">Email</span></span>
+                                                                            style="margin: 0;font-size: 14px;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <span
+                                                                                style="color: #6c6c6c;box-sizing: border-box;"><span
+                                                                                    style="font-size: 16px;box-sizing: border-box;">Email</span></span>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -835,23 +792,24 @@
                                                     </table>
                                                 </td>
                                                 <td class="column column-2"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; background-color: #f2f2f2;  vertical-align: top; border-top: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;background-color: #f2f2f2;vertical-align: top;border-top: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="75%">
                                                     <table border="0" cellpadding="0" cellspacing="0"
                                                         class="text_block block-1" role="presentation"
-                                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"
+                                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;"
                                                         width="100%">
-                                                        <tr>
+                                                        <tr style="box-sizing: border-box;">
                                                             <td class="pad"
-                                                                style="padding-bottom:10px;padding-right:30px;padding-top:10px;">
+                                                                style="padding-bottom: 10px;padding-right: 30px;padding-top: 10px;box-sizing: border-box;">
                                                                 <div
-                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif">
+                                                                    style="font-family: 'Trebuchet MS', Tahoma, sans-serif;box-sizing: border-box;">
                                                                     <div class=""
-                                                                        style="font-size: 12px; font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2;">
+                                                                        style="font-size: 12px;font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;mso-line-height-alt: 14.399999999999999px;color: #555555;line-height: 1.2;box-sizing: border-box;">
                                                                         <p
-                                                                            style="margin: 0; font-size: 13px; text-align: right; mso-line-height-alt: 16.8px;">
-                                                                            <strong><span
-                                                                                    style="font-size:13px;color:#000000;">alexis.bataillon@gmail.com</span></strong>
+                                                                            style="margin: 0;font-size: 13px;text-align: right;mso-line-height-alt: 16.8px;box-sizing: border-box;line-height: inherit;">
+                                                                            <strong
+                                                                                style="box-sizing: border-box;"><span
+                                                                                    style="font-size: 13px;color: #000000;box-sizing: border-box;">alexis.bataillon@gmail.com</span></strong>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -867,21 +825,23 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-14"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content stack" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f2f2f2; color: #000000; width: 570px;"
+                                        style="border-bottom-right-radius: 16px;border-bottom-left-radius: 16px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #f2f2f2;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;vertical-align: top;border-top: 0px;border-right: 0px;border-bottom: 0px;border-left: 0px;box-sizing: border-box;"
                                                     width="100%">
                                                     <div class="spacer_block block-1"
-                                                        style="height:30px;line-height:30px;font-size:1px;"> </div>
+                                                        style="height: 30px;line-height: 30px;font-size: 1px;box-sizing: border-box;">
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -891,21 +851,23 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-15"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;box-sizing: border-box;" width="100%">
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content stack" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #ffffff;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
                                                 <td class="column column-1"
-                                                    style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; border-left: 25px solid transparent; border-right: 24px solid transparent; vertical-align: top; border-top: 0px; border-bottom: 0px;"
+                                                    style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-weight: 400;text-align: left;border-left: 25px solid transparent;border-right: 24px solid transparent;vertical-align: top;border-top: 0px;border-bottom: 0px;box-sizing: border-box;"
                                                     width="100%">
                                                     <div class="spacer_block block-1"
-                                                        style="height:30px;line-height:30px;font-size:1px;"> </div>
+                                                        style="height: 30px;line-height: 30px;font-size: 1px;box-sizing: border-box;">
+                                                    </div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -915,22 +877,24 @@
                         </tbody>
                     </table>
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-16"
-                        role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;background:white"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;background: white;box-sizing: border-box;"
                         width="100%">
-                        <tbody>
-                            <tr>
-                                <td>
+                        <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="box-sizing: border-box;">
                                     <table align="center" border="0" cellpadding="0" cellspacing="0"
                                         class="row-content stack" role="presentation"
-                                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height:21px; background-color: #ffffff; color: #000000; width: 570px;"
+                                        style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;line-height: 21px;background-color: #ffffff;color: #000000;width: 570px;box-sizing: border-box;"
                                         width="570">
-                                        <tbody>
-                                            <tr>
-                                                <td class="column column-1" width="100%">
-                                                    <div style="text-align:center">
-                                                        <span>2022-2023 Fumble Ultimate - Powered by
-                                                            <a style="font-weight:600; text-decoration: none;color: black"
-                                                                target="_blank"
+                                        <tbody style="box-sizing: border-box;">
+                                            <tr style="box-sizing: border-box;">
+                                                <td class="column column-1" width="100%"
+                                                    style="box-sizing: border-box;">
+                                                    <div style="text-align: center;box-sizing: border-box;">
+                                                        <span style="box-sizing: border-box;">2022-2023 Fumble Ultimate
+                                                            - Powered by
+                                                            <a style="font-weight: 600;text-decoration: none;color: black;box-sizing: border-box;"
                                                                 href="https://axystudio.org">AxyStudio</a></span>
                                                     </div>
                                                 </td>
@@ -940,12 +904,13 @@
                                 </td>
                             </tr>
                         </tbody>
-
                     </table>
                 </td>
             </tr>
         </tbody>
     </table><!-- End -->
-</body>
+
+
+</div>
 
 </html>
