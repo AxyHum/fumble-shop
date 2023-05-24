@@ -62,7 +62,9 @@ class PaymentController extends Controller
                 'order' => $order,
             ];
 
-            SendOrderShippedMailJob::dispatch($order);
+            // SendOrderShippedMailJob::dispatch($order);
+
+            Mail::to($order->email)->send(new OrderShipped($order));
 
             return view('status_pay', $data);
         }
