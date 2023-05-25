@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <title>Fumble Shop</title>
 </head>
 
 <body>
@@ -99,7 +103,8 @@
         <div class="footer">
             <div class="footer-left">
                 <a href="#">Terms Policy</a href="#">
-                <svg width="3" height="4" viewBox="0 0 3 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="3" height="4" viewBox="0 0 3 4" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <circle cx="1.5" cy="2" r="1.5" fill="black" />
                 </svg>
                 <a href="#">Customer Story</a href="#">
