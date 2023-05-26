@@ -76,7 +76,7 @@
                     </div>
                     <div class="line">
                         <span>Date</span>
-                        <span>{{ $order->updated_at }}</span>
+                        <span>{{ $order->created_at }}</span>
                     </div>
                     <div class="line">
                         <span>Paiement par</span>

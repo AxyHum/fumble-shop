@@ -29,4 +29,11 @@ class OrderController extends Controller
 
         return view('orders_list', compact('orders'));
     }
+
+    public function update(Order $order, Request $request)
+    {
+        $order->update($request->all());
+
+        return response()->json('Order mis à jour !', 200);
+    }
 }

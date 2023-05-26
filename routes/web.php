@@ -28,3 +28,4 @@ Route::get('/payments/verify/{channel}', [PaymentController::class, 'paymentVeri
 Route::get('/payments/status/', [PaymentController::class, 'payStatus']);
 Route::get('/order/invoice', [OrderController::class, 'invoice']);
 Route::get('/orders/list', [OrderController::class, 'list']);
+Route::post('/orders/{order}/update', [OrderController::class, 'update']);

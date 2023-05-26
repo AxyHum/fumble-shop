@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email')->nullable();
             $table->string('name')->nullable();
             $table->string('invoice_pdf')->nullable();
-            $table->enum('status', ['pending', 'paying', 'paid', 'fail']);
+            $table->enum('status', ['pending', 'paying', 'paid', 'fail', 'delivery']);
             $table->enum('payment_method', ['credit', 'payment_channel'])->nullable();
             $table->decimal('amount', 13, 2)->unsigned();
             $table->text('reference_id')->nullable();
