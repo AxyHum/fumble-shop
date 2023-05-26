@@ -27,10 +27,10 @@
         </div>
     </nav>
     <section class="section">
-        <div style="display: flex">
-            <button class="primary-button" data-status="paid">Paid</button>
-            <button class="primary-button" data-status="pending">Pending</button>
-            <button class="primary-button" data-status="fail">Fail</button>
+        <div style="display: flex; margin-bottom:20px; margin-top:-30px; justify-content: center">
+            <button class="primary-button active" data-status="paid">Effectué</button>
+            <button class="primary-button" data-status="pending">Incomplet</button>
+            <button class="primary-button" data-status="fail">Echoué</button>
         </div>
         <div class="container orders-list">
             <!-- Boutons de filtre -->
@@ -38,7 +38,7 @@
 
             <!-- Éléments à filtrer -->
             @foreach ($orders as $order)
-                <div class="order-item" data-status="{{ $order->status }}">
+                <div class="order-item" onclick="showConfirmation()" data-status="{{ $order->status }}">
                     <div class="icon">
                         @if ($order->status == 'paid')
                             <svg width="50" height="50" viewBox="0 0 40 41" fill="none"
@@ -65,6 +65,7 @@
                                     stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         @endif
+                        <span style="font-size: 14px"># {{ $order->id }}</span>
                     </div>
                     <div class="content">
                         <span
@@ -120,10 +121,30 @@
 
         button.addEventListener('click', function() {
             var status = this.getAttribute('data-status'); // Récupérer le statut du bouton
-
+            for (var i = 0; i < filterButtons.length; i++) {
+                var button = filterButtons[i];
+                button.classList.remove('active')
+            }
+            this.classList.add('active')
             // Appliquer le filtre en fonction du statut
             filterItems(status);
         });
+    }
+    filterItems('paid');
+
+    // Fonction pour afficher la popup de confirmation
+    function showConfirmation() {
+        var result = confirm("Êtes-vous sûr de vouloir continuer ?");
+
+        if (result) {
+            // L'utilisateur a cliqué sur "OK"
+            // Effectuez les actions souhaitées ici
+            console.log("Action confirmée !");
+        } else {
+            // L'utilisateur a cliqué sur "Annuler" ou fermé la popup
+            // Effectuez les actions souhaitées ici
+            console.log("Action annulée !");
+        }
     }
 </script>
 
