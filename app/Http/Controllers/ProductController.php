@@ -19,7 +19,7 @@ class ProductController extends Controller
         $stripe = new \Stripe\StripeClient(env('STRIPE_SECRET'));
         $checkout = $stripe->checkout->sessions->create([
             'success_url' => $this->makeCallbackUrl($order, 'success'),
-            'cancel_url' => $this->makeCallbackUrl($order, 'cancel'),
+            'cancel_url' => url('/'),
             'payment_method_types' => ['card', 'paypal'],
             'line_items' => [
                 [
