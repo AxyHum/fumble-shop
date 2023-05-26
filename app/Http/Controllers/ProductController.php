@@ -20,6 +20,7 @@ class ProductController extends Controller
         $checkout = $stripe->checkout->sessions->create([
             'success_url' => $this->makeCallbackUrl($order, 'success'),
             'cancel_url' => $this->makeCallbackUrl($order, 'cancel'),
+            'payment_method_types' => ['card', 'paypal'],
             'line_items' => [
                 [
                     'price' => $product->stripe_price,
