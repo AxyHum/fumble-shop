@@ -27,3 +27,4 @@ Route::get('/product/{product}/checkout', [ProductController::class, 'checkout']
 Route::get('/payments/verify/{channel}', [PaymentController::class, 'paymentVerify']);
 Route::get('/payments/status/', [PaymentController::class, 'payStatus']);
 Route::get('/order/invoice', [OrderController::class, 'invoice']);
+Route::get('/orders/list', [OrderController::class, 'list']);

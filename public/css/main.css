@@ -397,6 +397,42 @@ footer {
     align-items: center;
 }
 
+.order-item {
+    width: 100%;
+    font-family: "MontSerrat", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+    margin-left: 10px;
+    border-bottom: 1px solid #b0b5be;
+    padding-bottom: 10px;
+}
+
+.order-item .icon {
+    padding: 10px;
+    height: 50px;
+}
+
+.order-item .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #6A7383;
+}
+
+.order-item .title {
+    font-size: 19px;
+    font-weight: 600;
+    color: #1B1C20;
+}
+
+.orders-list {
+    align-items: start;
+    gap: 10px;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     html {
         font-size: 15px;

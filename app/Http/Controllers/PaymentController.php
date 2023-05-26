@@ -40,6 +40,8 @@ class PaymentController extends Controller
                     'invoice_pdf' => url('/order/invoice?order_id=' . $order->id)
                 ]);
 
+                Mail::to($order->email)->send(new OrderShipped($order));
+
                 return redirect('/payments/status?order_id=' . $order->id);
             }
         }
@@ -63,8 +65,6 @@ class PaymentController extends Controller
             ];
 
             // SendOrderShippedMailJob::dispatch($order);
-
-            Mail::to($order->email)->send(new OrderShipped($order));
 
             return view('status_pay', $data);
         }
