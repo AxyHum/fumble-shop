@@ -27,9 +27,18 @@
         </div>
     </nav>
     <section class="section">
+        <div style="display: flex">
+            <button class="primary-button" data-status="paid">Paid</button>
+            <button class="primary-button" data-status="pending">Pending</button>
+            <button class="primary-button" data-status="fail">Fail</button>
+        </div>
         <div class="container orders-list">
+            <!-- Boutons de filtre -->
+
+
+            <!-- Éléments à filtrer -->
             @foreach ($orders as $order)
-                <div class="order-item">
+                <div class="order-item" data-status="{{ $order->status }}">
                     <div class="icon">
                         @if ($order->status == 'paid')
                             <svg width="50" height="50" viewBox="0 0 40 41" fill="none"
@@ -72,7 +81,8 @@
         <div class="footer">
             <div class="footer-left">
                 <a href="#">Terms Policy</a href="#">
-                <svg width="3" height="4" viewBox="0 0 3 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="3" height="4" viewBox="0 0 3 4" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <circle cx="1.5" cy="2" r="1.5" fill="black" />
                 </svg>
                 <a href="#">Customer Story</a href="#">
@@ -82,5 +92,39 @@
         </div>
     </footer>
 </body>
+
+<script type="text/javascript">
+    // Fonction pour filtrer les éléments en fonction du statut sélectionné
+    function filterItems(status) {
+        var items = document.getElementsByClassName('order-item');
+
+        // Parcourir les éléments et afficher/masquer en fonction du statut
+        for (var i = 0; i < items.length; i++) {
+            var item = items[i];
+
+            // Vérifier si l'élément a le statut correspondant
+            if (status === 'all' || item.getAttribute('data-status') === status) {
+                item.style.display = 'flex'; // Afficher l'élément
+            } else {
+                item.style.display = 'none'; // Masquer l'élément
+            }
+        }
+    }
+
+    // Sélectionner tous les boutons de filtre
+    var filterButtons = document.getElementsByClassName('primary-button');
+
+    // Ajouter un gestionnaire d'événement à chaque bouton de filtre
+    for (var i = 0; i < filterButtons.length; i++) {
+        var button = filterButtons[i];
+
+        button.addEventListener('click', function() {
+            var status = this.getAttribute('data-status'); // Récupérer le statut du bouton
+
+            // Appliquer le filtre en fonction du statut
+            filterItems(status);
+        });
+    }
+</script>
 
 </html>
