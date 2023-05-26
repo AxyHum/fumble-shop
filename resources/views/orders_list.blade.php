@@ -19,7 +19,7 @@
     <title>Fumble Shop - Liste</title>
     <style>
         body {
-            zoom: .97
+            zoom: .8
         }
     </style>
 </head>
