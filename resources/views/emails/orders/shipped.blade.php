@@ -570,7 +570,7 @@
                                                                             style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
                                                                             <strong><span
                                                                                     style="font-size:16px;color:#000000;">#
-                                                                                    00{{ $order->id }}</span></strong>
+                                                                                    {{ $order->id }}</span></strong>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -775,8 +775,7 @@
                                                                         <p
                                                                             style="margin: 0; font-size: 14px; text-align: right; mso-line-height-alt: 16.8px;">
                                                                             <strong><span
-                                                                                    style="font-size:16px;color:#000000;">Alexis
-                                                                                    Bataillon</span></strong>
+                                                                                    style="font-size:16px;color:#000000;">{{ $order->name }}</span></strong>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -844,7 +843,7 @@
                                                                         <p
                                                                             style="margin: 0; font-size: 13px; text-align: right; mso-line-height-alt: 16.8px;">
                                                                             <strong><span
-                                                                                    style="font-size:13px;color:#000000;">alexis.bataillon@gmail.com</span></strong>
+                                                                                    style="font-size:13px;color:#000000;">{{ $order->email }}</span></strong>
                                                                         </p>
                                                                     </div>
                                                                 </div>

@@ -72,7 +72,7 @@
                     {{-- <div class="column title-column"> --}}
                     <div class="line">
                         <span>Numéro Ref</span>
-                        <span># 00{{ $order->id }}</span>
+                        <span># {{ $order->id }}</span>
                     </div>
                     <div class="line">
                         <span>Date</span>
