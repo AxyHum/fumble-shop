@@ -38,15 +38,23 @@
 
             <!-- Éléments à filtrer -->
             @foreach ($orders as $order)
-                <div class="order-item" onclick="showConfirmation()" data-status="{{ $order->status }}">
+                <div class="order-item" data-status="{{ $order->status }}">
                     <div class="icon">
                         @if ($order->status == 'paid')
-                            <svg width="50" height="50" viewBox="0 0 40 41" fill="none"
+                            <svg class="icon_paid" width="50" height="50" viewBox="0 0 40 41" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 20.5435L18 27.587L30 13.5" stroke="#22CD10" stroke-opacity="0.6"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <rect x="1" y="1.5" width="38" height="38" rx="7"
+                                    stroke="#22CD10" stroke-opacity="0.6" stroke-width="2" />
+                            </svg>
+                            <svg class="icon_delivery" style="display:none" width="50" height="50"
+                                viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect y="0.5" width="40" height="40" rx="8" fill="#22CD10"
                                     fill-opacity="0.6" />
-                                <path d="M12 20.5435L18 27.587L30 13.5" stroke="white" stroke-width="2.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M22 11.5V15.5C22 15.7652 22.1054 16.0196 22.2929 16.2071C22.4804 16.3946 22.7348 16.5 23 16.5H27M22 11.5H15C14.4696 11.5 13.9609 11.7107 13.5858 12.0858C13.2107 12.4609 13 12.9696 13 13.5V27.5C13 28.0304 13.2107 28.5391 13.5858 28.9142C13.9609 29.2893 14.4696 29.5 15 29.5H25C25.5304 29.5 26.0391 29.2893 26.4142 28.9142C26.7893 28.5391 27 28.0304 27 27.5V16.5M22 11.5L27 16.5M17 23.5L19 25.5L23 21.5"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         @elseif ($order->status == 'pending')
                             <svg width="50" height="50" viewBox="0 0 38 39" fill="none"
@@ -132,19 +140,24 @@
     }
     filterItems('paid');
 
+    var orders_items = document.getElementsByClassName('order-item')
+    for (var i = 0; i < orders_items.length; i++) {
+        var item = orders_items[i];
+
+        item.addEventListener('click', function() {
+            showConfirmation(this)
+        });
+    }
+
     // Fonction pour afficher la popup de confirmation
-    function showConfirmation() {
-        var result = confirm("Êtes-vous sûr de vouloir continuer ?");
+    function showConfirmation($this) {
+        var result = confirm("Voulez-vous delivrer la carte ?");
 
         if (result) {
-            // L'utilisateur a cliqué sur "OK"
-            // Effectuez les actions souhaitées ici
-            console.log("Action confirmée !");
-        } else {
-            // L'utilisateur a cliqué sur "Annuler" ou fermé la popup
-            // Effectuez les actions souhaitées ici
-            console.log("Action annulée !");
-        }
+            $this.querySelector(".icon").querySelector('.icon_paid').style.display = 'none'
+            $this.querySelector(".icon").querySelector('.icon_delivery').style.display = 'block'
+
+        } else {}
     }
 </script>
 
