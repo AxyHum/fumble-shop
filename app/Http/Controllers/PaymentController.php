@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use HTTP_Request2_LogicException;
+use Illuminate\Support\Facades\Config;
+use App\Services\HelloAssoApiWrapper;
+use Stripe\Exception\ApiErrorException;
 use Stripe\Stripe;
 use App\Models\Order;
 use App\Models\Product;
@@ -15,9 +19,14 @@ use App\Jobs\SendOrderShippedMailJob;
 
 class PaymentController extends Controller
 {
-    public function paymentVerify(Request $request)
+    /**
+     * @throws ApiErrorException
+     * @throws HTTP_Request2_LogicException
+     */
+    public function paymentVerify(Request $request, string $channel)
     {
         $data = $request->all();
+
         $status = $data['status'];
         $order_id = $data['order_id'];
 
@@ -27,30 +36,52 @@ class PaymentController extends Controller
             $order->update(['status' => 'fail']);
         }
 
-        if ($status == 'success' and !empty($request->session_id) and !empty($order)) {
-            Stripe::setApiKey(env('STRIPE_SECRET'));
+        if ($channel == "Stripe") {
+            if ($status == 'success' and !empty($request->session_id) and !empty($order)) {
+                Stripe::setApiKey(env('STRIPE_SECRET'));
 
-            $session = Session::retrieve($request->session_id);
+                $session = Session::retrieve($request->session_id);
 
-            if (!empty($session) and $session->payment_status == 'paid') {
-                $order->update([
-                    'status' => 'paid',
-                    'email' => $session['customer_details']['email'],
-                    'name' => $session['customer_details']['name'],
-                    'invoice_pdf' => url('/order/invoice?order_id=' . $order->id)
-                ]);
+                if (!empty($session) and $session->payment_status == 'paid') {
+                    $order->update([
+                        'status' => 'paid',
+                        'email' => $session['customer_details']['email'],
+                        'name' => $session['customer_details']['name'],
+                        'invoice_pdf' => url('/order/invoice?order_id=' . $order->id)
+                    ]);
 
-                Mail::to($order->email)->send(new OrderShipped($order));
+                    Mail::to($order->email)->send(new OrderShipped($order));
 
-                return redirect('/payments/status?order_id=' . $order->id);
+                    return redirect('/payments/status?order_id=' . $order->id);
+                }
+            }
+        } else {
+            $checkoutId = $data['checkoutIntentId'];
+            $code = $data["code"];
+
+            if ($status == 'success' and !empty($order)) {
+                $helloassoApiWrapper = new HelloAssoApiWrapper(Config::get('services.helloasso'));
+                $response = $helloassoApiWrapper->retrieveCheckout($checkoutId);
+
+                if (!empty($response)) {
+                    $order->update([
+                        'status' => 'paid',
+                        'email' => $response->order->payer->email,
+                        'name' => $response->order->payer->firstName,
+                        'invoice_pdf' => $response->order->payments[0]->paymentReceiptUrl
+                    ]);
+
+                    Mail::to($order->email)->send(new OrderShipped($order));
+
+                    return redirect('/payments/status?order_id=' . $order->id);
+                }
             }
         }
 
-        if ($status == 'cancel') {
-            $order->update(['status' => 'fail']);
+        $order->update(['status' => 'fail']);
 
-            return redirect('/');
-        }
+        return redirect('/');
+
     }
 
     public function payStatus(Request $request)

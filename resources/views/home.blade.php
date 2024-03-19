@@ -7,7 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/css/main.css">
+{{--    <link rel="stylesheet" href="/css/main.css">--}}
+    @vite(['resources/css/app.css' , 'resources/js/app.js'])
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -83,9 +84,12 @@
                     </div>
                     <div class="plan-item-bottom-content">
                         <div>
-                            <h2 class="plan-price sold-out">12.00€
+                            <h2 class="plan-price
+{{--                            sold-out--}}
+                            ">12.00€
                             </h2>
-                            <span class="sold-out-text">Sold Out</span>
+{{--                            <span class="sold-out-text">Sold Out</span>--}}
+                            <span class="sold-out-text" style="left: 3%; top: -5px">Stocks Limité</span>
                         </div>
                         <button class="plan-checkout">
                             <svg width="17" height="13" viewBox="0 0 17 13" fill="none"

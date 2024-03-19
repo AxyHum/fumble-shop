@@ -28,7 +28,7 @@
         </div>
     </nav>
     <header class="header">
-        @if ($order->status == 'paid')
+        @if ($order->status != 'fail' and $order->status != 'pending')
             <svg width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="40" height="40" rx="20" fill="#22CD10" />
                 <path d="M11 20.0435L17 27.087L29 13" stroke="white" stroke-width="2.5" stroke-linecap="round"
@@ -63,8 +63,10 @@
                         <span>Status</span>
                         @if ($order->status == 'paid')
                             <div class="badge-success">Effectué</div>
-                        @else
+                        @elseif ($order->status == 'fail')
                             <div class="badge-danger">Echoué</div>
+                        @elseif ($order->status == 'delivery')
+                            <div class="badge-success">Remise</div>
                         @endif
                     </div>
                 </div>
@@ -106,11 +108,11 @@
     <footer>
         <div class="footer">
             <div class="footer-left">
-                <a href="#">Terms Policy</a href="#">
+                <a href="#">Terms Policy</a>
                 <svg width="3" height="4" viewBox="0 0 3 4" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="1.5" cy="2" r="1.5" fill="black" />
                 </svg>
-                <a href="#">Customer Story</a href="#">
+                <a href="#">Customer Story</a>
             </div>
             <span>2022-2023 Fumble Ultimate - Powered by
                 <a style="font-weight:600" target="_blank" href="https://axystudio.org">AxyHum</a></span>

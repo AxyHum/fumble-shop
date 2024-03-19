@@ -31,4 +31,13 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'helloasso' => [
+        'clientId' => env('HELLOASSO_CLIENT'),
+        'clientSecret' => env('HELLOASSO_SECRET'),
+        'organismSlug' => "fumble-fuse-ultimate",
+        'baseUrl' => env('APP_URL', 'http://localhost'),
+        'returnUrl' => env('APP_URL', 'http://localhost') . '/payments/verify/Asso',
+        'errorUrl' => env('APP_URL', 'http://localhost') . '/payments/verify/Asso?status=error',
+    ]
+
 ];
