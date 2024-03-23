@@ -75,7 +75,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="plan-item bg-dark">
+                <a href="/product/3/checkout" class="plan-item bg-dark">
                     <div class="plan-item-top-content">
                         <h4 class="plan-sub">EURODISC</h4>
                         <h2 class="plan-title font-28">Disque Fumble</h2>
